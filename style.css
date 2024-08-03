@@ -3,59 +3,115 @@
     padding: 0;
 }
 
-:root {
-    font-family: "Open Sans", sans-serif;
-
-}
-
 body {
     background-color: #F5F4F0;
-    border: #D9D9D9;
-}
 
-#page {
-    margin: 80px auto;
-    padding: auto;
-    box-sizing: border-box;
-    width: 1120px;
-    border-radius: 36px;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    padding-bottom: 40px;
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-h3 {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-
-headline {
-    font-size: 16px;
-    font-weight: bold;
-    color: #E1624F;
-    text-transform: uppercase;
-    padding-bottom: 2px;
-}
-
-p {
-    font-size: 16px;
-    color: #333333;
 }
 
 img {
     border-radius: 28px;
-    padding-bottom: 22px;
 }
 
-#title-list {
-    padding-top: 70px;
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 88px auto 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+#headline {
+    color: #E1624F;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-left: 8px;
+    font-size: 28px;
+}
+
+h4 {
+    color: #E1624F;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 48px;
+    color: #333333;
+}
+
+#ultimo-p {
+    text-align: center;
+}
+
+#paragraph {
+    margin-bottom: 64px;
+}
+
+#card {
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+#description {
+    margin-top: 4px;
+    text-align: center;
+    font-style: italic;
+}
+
+#divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+    background-color: #d9d9d9;
+}
+
+ul {
+    list-style-type: disc;
+    margin-top: 3px;
+    margin-left: 19px;
+}
+
+
+
+#li-blue {
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+#li-purple {
+    color: #591B98;
+    font-weight: bold;
+}
+
+#li-pink {
+    color: #E5245E;
+    font-weight: bold;
+}
+
+#li-orange {
+    color: #E95E10;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    vertical-align: middle;
 }
